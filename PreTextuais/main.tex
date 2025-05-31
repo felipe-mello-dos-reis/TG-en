@@ -1,0 +1,51 @@
+% Cover Page and Title Page for the TG case
+\maketitle
+
+% Dedication: Don't forget this section ... :-)
+\begin{itadedication}
+To the friends from Undergraduate and Graduate studies at ITA for motivating both the creation of this template by Fábio Fagundes Silveira and encouraging me and others to update and improve this excellent work.
+\end{itadedication}
+
+% Acknowledgments
+\begin{itathanks}
+\input{PreTextuais/acknowledgments}
+\end{itathanks}
+
+% Epigraph
+\thispagestyle{empty}
+\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigraph}\fi
+\begin{flushright}
+\begin{spacing}{1}
+\mbox{}\vfill
+\input{PreTextuais/epigraph}
+\end{spacing}
+\end{flushright}
+
+% Resumo (in Portuguese)
+\begin{abstract}
+\noindent
+\input{PreTextuais/resumo}
+\end{abstract}
+
+% Abstract (in English)
+\begin{englishabstract}
+\noindent
+\input{PreTextuais/abstract}
+\end{englishabstract}
+
+% List of Figures
+\listoffigures %optional
+
+% List of Tables
+\listoftables %optional
+
+% List of Abbreviations
+\listofabbreviations
+\input{PreTextuais/listofabbreviations} %optional
+
+% List of Symbols
+\listofsymbols
+\input{PreTextuais/listofsymbols} %optional
+
+% Table of Contents
+\tableofcontents

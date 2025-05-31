@@ -1,0 +1,7 @@
+{
+    "latex-workshop.latex.root": "/Users/felipemello/Documents/ITA/TG1/latex/tese.tex",
+    "latex-workshop.latex.rootFile.useSubFile": true,
+    "latex-workshop.latex.rootFile.doNotPrompt": true,
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.view.pdf.viewer": "tab"
+}
