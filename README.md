@@ -8,7 +8,7 @@
 
 ## Work Summary
 
-This work presents the development of a single-component alkali-activated cement focusing on low-calcium solid precursors. The research primarily uses metakaolin and silica fume, combined with safer and more accessible alternative alkaline sources, such as potassium carbonate (K₂CO₃) and calcium hydroxide (Ca(OH)₂).
+This work presents the development of a one-part alkali-activated cement focusing on low-calcium solid precursors. The research primarily uses metakaolin and silica fume, combined with safer and more accessible alternative alkaline sources, such as potassium carbonate (K₂CO₃) and calcium hydroxide (Ca(OH)₂).
 
 The approach aims to contribute to the formulation of more sustainable, safe, and high-performance binders for civil construction applications, aligning with contemporary guidelines for low environmental impact construction.
 

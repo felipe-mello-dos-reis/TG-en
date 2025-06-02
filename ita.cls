@@ -529,7 +529,8 @@
 	\hspace{-0.8cm}\fbox{\parbox[c][660pt][c]{\textwidth}{
   \centering
 
-  \itaformatworktitle{\MakeUppercase{instituto tecnol\'{o}gico de aeron\'{a}utica}}
+  % \itaformatworktitle{\MakeUppercase{instituto tecnol\'{o}gico de aeron\'{a}utica}}
+  \itaformatworktitle{\MakeUppercase{Aeronautics Institute of Technology}}
 
   \vspace*{\stretch{2}}
 
