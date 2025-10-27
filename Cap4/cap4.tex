@@ -69,6 +69,11 @@ SA and MK both exhibited broad amorphous humps in their XRD patterns, indicative
 The MK showed minor crystalline quartz peaks, indicating the presence of impurities, which remains inert during calcination \cite{provis2014geopolymers} and acts as filler without participating in geopolymerization reaction \cite{rakhimova2019metakaolin}.
 The alkaline sources displayed sharp diffraction peaks corresponding to their known crystalline phases, confirming their purity.
 
+% \subsection{Fourier Transform Infrared Spectroscopy of Precursors}
+
+% FTIR spectra of MK and SA precursors provided insights into their molecular structures and functional groups relevant to geopolymerization.
+
+
 \section{Microstructural Characterization of Pastes}
 
 \subsection{Scanning Electron Microscopy and Energy Dispersive Spectroscopy}
@@ -192,7 +197,7 @@ It can be speculated that this is due to a stronger tendency of Si to stays in s
     \end{tabular}
 \end{table}
 
-Additional EDS spectral data for all analyzed spots can be found in Appendix \ref{appendix:eds_spectrums}.
+Additional EDS spectral data for all analyzed spots can be found in Appendix \ref{appendix:eds_spectra}.
 
 
 
@@ -230,7 +235,7 @@ The crystalline phases identified in the XRD patterns are presented in Table \re
 
 Figure \ref{fig:xrd_pastes} exhibits that at lower Si/Al ratios, the peaks - specially from calcite - are more intense, indicating a higher presence of these crystalline phases from unreacted materials.
 
-% Taken together, the XRD results corroborate the SEM/EDS findings: (i) all mixes formed an amorphous aluminosilicate gel, consistent with low-calcium N-A-S-H-type networks; (ii) Si/Al = 3.0 displayed the microstructurally densest matrix and, correspondingly, lower reliance on alkali-salt precipitation products; (iii) high Si/Al (4–5) retained unreacted silica, evidenced by the hump shape similarity to SA and the SiO₂ fraction; and (iv) low Si/Al (0.9) promoted alkali/carbonate crystallization (including butschliite) consistent with excess free alkali and early carbonation.
+% Taken together, the XRD results corroborate the SEM/EDS findings: (i) all mixes formed an amorphous aluminosilicate gel, consistent with low-calcium N-A-S-H-type networks; (ii) Si/Al = 3.0 displayed the microstructurally densest matrix and, correspondingly, lower reliance on alkali-salt precipitation products; (iii) high Si/Al (4-5) retained unreacted silica, evidenced by the hump shape similarity to SA and the SiO₂ fraction; and (iv) low Si/Al (0.9) promoted alkali/carbonate crystallization (including butschliite) consistent with excess free alkali and early carbonation.
 
 \begin{figure}[H]
     \centering
@@ -240,3 +245,44 @@ Figure \ref{fig:xrd_pastes} exhibits that at lower Si/Al ratios, the peaks - spe
 \end{figure}
 
 \textcolor{red}{Find a better way to present this graph, shifting vertically different rations and labeling the peaks.}
+
+\subsection{Fourier Transform Infrared Spectroscopy}
+
+FTIR spectra were collected for all pastes after 1 and 3 days of curing to analyze the chemical bonding and structural changes associated with geopolymerization at different Si/Al ratios.
+There was no significant variation in the spectra from 1 to 3 days of curing, so only the spectra after 3 days are represented in Figure \ref{fig:ftir_pastes}.
+The spectra of solid precursors are exhibited in Appendix \ref{appendix:ftir_spectra}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Cap4/images/ftir_comparison_3d_curing.png}
+    \caption{FTIR spectra of pastes at different Si/Al ratios after 3 days of curing.}
+    \label{fig:ftir_pastes}
+\end{figure}
+
+The key to interpreting these spectra lies in the fingerprint region (400-1200 cm\textsuperscript{-1}), which reflects the formation of the polymeric network, and the hydroxyl/carbonate regions (1300-3700 cm\textsuperscript{-1}), which indicate water and carbonation.
+The Table \ref{tab:ftir_assignments} summarizes the main FTIR peaks observed in the pastes and their assignments.
+
+\begin{landscape}
+    \begin{table}[p]
+    \centering
+    \caption{Assignment of FTIR absorption bands observed in pastes after 3 days of curing at 60$\degree$C, where T = Si or Al.}
+    \vspace{0.5cm}
+    {\small % Reduce font size for the table
+    \renewcommand{\arraystretch}{1.2} % Increase row spacing
+    \begin{tabular}{p{2.5cm} p{2.5cm} p{3cm} p{8cm} p{3cm}}
+        \hline
+        Wavenumber Range (cm$^{-1}$) & Observed Peaks & Vibration Mode & Chemical Significance & Reference \\
+        \hline
+        % 3641 & 3641 (Ca(OH)$_2$ precursor) & O-H stretching & Sharp band characteristic of crystalline portlandite (Ca(OH)$_2$). & \\
+        3100-3450 & 3111, 3136, 3177, 3325, 3367 & O-H stretching & Represents weakly bonded or physically adsorbed water, and hydroxyl groups involved in hydrogen bonding within the gel structure. & \cite{Zhao2023}, \cite{provis2009geopolymers}, \cite{ma2022calcium}\\
+        1620-1645 & 1629, 1631, 1632, 1641 & H-O-H bending & Vibration of interlayered or physically bound water molecules in the AAM matrix. & \cite{Zhao2023}, \cite{pachecotorgal2014handbook}\\
+        1350-1500 & 1419, 1423, 1461, 1484 & C-O stretching & Characteristic of carbonates, indicating atmospheric carbonation (formation of CaCO$_3$ or K$_2$CO$_3$). & \cite{Zhao2023}, \cite{pachecotorgal2014handbook}, \cite{moraes2024scsa}\\
+        950-1100 & 960, 1008, 1023 & Si-O-T asymmetric stretching & Primary diagnostic band of N-A-S-H gel formation. Shifted to lower frequencies when compared to precursors (SA: 1040, MK: 1051 cm$^{-1}$) indicates precursor dissolution and gel polymerization. & \cite{ma2022calcium}, \cite{Zhao2023}, \cite{provis2009geopolymers}\\
+        780-880 & 787, 855, 872 & Si-O-Si symmetric stretching or C-O bending & Peaks around 780-800 cm$^{-1}$ relate to unreacted quartz. Bands in 850-880 cm$^{-1}$ are associated with carbonate bending vibrations. & \cite{moraes2024scsa}, \cite{pachecotorgal2014handbook}\\
+        550-700 & 563, 679, 703, 712 & O-T-O or Al-O-T bending & Associated with bending vibrations in the tetrahedral network, specifically Al-O linkages in AlO$_4$ units or O-Si-O bending. & \cite{Zhao2023}, \cite{ma2022calcium} \\
+        \hline
+    \end{tabular}
+    }
+    \label{tab:ftir_assignments}
+    \end{table}
+\end{landscape}
