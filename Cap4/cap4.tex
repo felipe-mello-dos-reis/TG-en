@@ -33,45 +33,54 @@ In this work, the metakaolin (MK) and silica fume (SF) precursors were analysed 
     \end{tabular}
 \end{table}
 
-From Table 4.1.1 it is clear that the MK precursor is rich in alumina and contains a significant silica fraction , while the SA is extremely high in silica and essentially alumina-free.
+From Table 4.1.1 it is clear that the MK precursor is rich in alumina and contains a significant silica fraction , while the SF is extremely high in silica and essentially alumina-free.
 Critically, both materials present very low CaO contents.
 The minimal presence of calcium oxide is an important indicator of the low-calcium nature of the precursors, which is a pre-requisite for favoring the formation of potassium aluminosilicate hydrate type gels, rather than calcium-rich gels, as often observed when using ground granulated blast furnace slag \cite{ali2023geopolymer}.
 
 
 In addition, the low LOI values suggest a limited amount of residual organics or volatile components, which could otherwise interfere with the dissolution kinetics of the aluminosilicates.
-Furthermore, the Si/Al molar ratio of MK precursos is approximately 0.9, which will be used with the essentially pure SA to tailor the mix designs for optimal geopolymerization reactions, as presented in Appendix \ref{appendix:mix_designs}.
+Furthermore, the Si/Al molar ratio of MK precursos is approximately 0.9, which will be used with the essentially pure SF to tailor the mix designs for optimal geopolymerization reactions, as presented in Appendix \ref{appendix:mix_designs}.
 
 % Create a slide with this phrase:
-In summary, the chemical data confirm that both MK and SA meet the key requirements of (i) high silica and/or alumina content, (ii) low calcium content, and (iii) minimal impurities, thereby validating their use as raw materials for a low calcium alkali-activated binder system.
+In summary, the chemical data confirm that both MK and SF meet the key requirements of (i) high silica and/or alumina content, (ii) low calcium content, and (iii) minimal impurities, thereby validating their use as raw materials for a low calcium alkali-activated binder system.
 
 \subsection{X-Ray Diffraction of Precursors and Alkaline Sources}
 \label{sec:x-ray_diffraction_of_precursors_and_alkaline_sources}
 
-XRD analysis was conducted on the precursors and alkaline sources to evaluate phase composition, crystallinity and the presence of amorphous phases. The key observations were as follows:
+XRD analysis of the alkaline sources revealed distinct crystalline characteristics.
+The diffractogram of Ca(OH)\textsubscript{2} showed well-defined peaks corresponding to the portlandite phase (COD 900-0114), confirming its high crystallinity and purity.
+Similarly, the spectrum of K\textsubscript{2}CO\textsubscript{3} exhibited reflections attributed to crystalline potassium carbonate (COD 900-9644).
 
-\begin{table}[H]
+These results are consistent with findings from previous studies that identified portlandite and alkali carbonates as highly crystalline solids used in geopolymer and alkali-activated systems due to their strong reactivity and predictable phase behavior \cite{Provis2014}.
+
+The XRD patterns of SF and MK displayed broad amorphous humps, characteristic of disordered aluminosilicate and silica networks \cite{provis2009geopolymers,ke2021one}.
+In MK, a diffuse hump centered around $2\theta \approx 21\degree$ was observed, with minor peaks corresponding to residual quartz (COD 900-9667), indicating the presence of impurities, which remains inert during calcination \cite{provis2014geopolymers} and acts as filler without participating in geopolymerization reaction \cite{rakhimova2019metakaolin}.
+The SF diffractogram showed a similar amorphous feature near $2\theta \approx 22.5\degree$, confirming the predominance of a non-crystalline silica phase with no detectable crystalline impurities.
+
+These findings align with the literature, where metakaolin typically exhibits a predominantly amorphous structure with residual quartz peaks depending on the calcination temperature and source clay, while silica fume is almost entirely amorphous as it is a by-product of the smelting process in silicon and ferrosilicon alloy production \cite{pachecotorgal2014handbook}.
+The high amorphous content of these precursors is advantageous for geopolymerization, as it enhances the dissolution of reactive aluminosilicate species and promotes the formation of N-A-S-H and C-A-S-H type gels, leading to improved mechanical performance \cite{qin2022onepart}.
+
+\begin{figure}[H]
     \centering
-    \caption{Summary of XRD phase observations for precursors and alkaline sources.}
-    \label{tab:precursor_xrd_summary}
-    \begin{tabular}{l l}
-        \hline
-        Material & Key XRD observations \\
-        \hline
-        MK & Broad amorphous hump near $2\theta \approx 21\degree$, residual quartz peaks (COD 900-9667) \\
-        SA & Broad amorphous hump near $2\theta \approx 22.5\degree$, no distinct crystalline phases \\
-        Ca(OH)\textsubscript{2} & Crystalline portlandite phase (COD 900-0114) \\
-        K\textsubscript{2}CO\textsubscript{3} & Crystalline calcium carbonate phase (COD 900-9644) \\
-        \hline
-    \end{tabular}
-\end{table}
-
-SA and MK both exhibited broad amorphous humps in their XRD patterns, indicative of their largely non-crystalline nature, which is favorable for dissolution during alkali activation.
-The MK showed minor crystalline quartz peaks, indicating the presence of impurities, which remains inert during calcination \cite{provis2014geopolymers} and acts as filler without participating in geopolymerization reaction \cite{rakhimova2019metakaolin}.
-The alkaline sources displayed sharp diffraction peaks corresponding to their known crystalline phases, confirming their purity.
+    \subfloat[Calcium Hydroxide]{
+        \includegraphics[width=0.45\textwidth]{Cap4/images/xrd_CH.png}
+    }
+    \subfloat[Potassium Carbonate]{
+        \includegraphics[width=0.45\textwidth]{Cap4/images/xrd_KC.png}
+    } \\
+    \subfloat[Metakaolin]{
+        \includegraphics[width=0.45\textwidth]{Cap4/images/xrd_MK.png}
+    }
+    \subfloat[Silica Fume]{
+        \includegraphics[width=0.45\textwidth]{Cap4/images/xrd_SF.png}
+    }
+    \caption{XRD patterns of solid precursors.}
+    \label{fig:xrd_precursors}
+\end{figure}
 
 \subsection{Fourier Transform Infrared Spectroscopy of Precursors}
 
-% FTIR spectra of MK and SA precursors provided insights into their molecular structures and functional groups relevant to geopolymerization.
+% FTIR spectra of MK and SF precursors provided insights into their molecular structures and functional groups relevant to geopolymerization.
 \begin{figure}[H]
     \centering
     \subfloat[Metakaolin (MK)]{
@@ -126,16 +135,16 @@ The crystalline phases identified in the XRD patterns are presented in Table \re
 
 Figure \ref{fig:xrd_pastes} exhibits that at lower Si/Al ratios, the peaks - specially from calcite - are more intense, indicating a higher presence of these crystalline phases from unreacted materials.
 
-% Taken together, the XRD results corroborate the SEM/EDS findings: (i) all mixes formed an amorphous aluminosilicate gel, consistent with low-calcium N-A-S-H-type networks; (ii) Si/Al = 3.0 displayed the microstructurally densest matrix and, correspondingly, lower reliance on alkali-salt precipitation products; (iii) high Si/Al (4-5) retained unreacted silica, evidenced by the hump shape similarity to SA and the SiO₂ fraction; and (iv) low Si/Al (0.9) promoted alkali/carbonate crystallization (including butschliite) consistent with excess free alkali and early carbonation.
+% Taken together, the XRD results corroborate the SEM/EDS findings: (i) all mixes formed an amorphous aluminosilicate gel, consistent with low-calcium N-A-S-H-type networks; (ii) Si/Al = 3.0 displayed the microstructurally densest matrix and, correspondingly, lower reliance on alkali-salt precipitation products; (iii) high Si/Al (4-5) retained unreacted silica, evidenced by the hump shape similarity to SF and the SiO₂ fraction; and (iv) low Si/Al (0.9) promoted alkali/carbonate crystallization (including butschliite) consistent with excess free alkali and early carbonation.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Cap4/images/xrd_pastes.png}
+    \includegraphics[width=0.8\textwidth]{Cap4/images/xrd_pastes_shifted.png}
     \caption{XRD patterns of pastes at different Si/Al ratios after 3 days of curing.}
     \label{fig:xrd_pastes}
 \end{figure}
 
-\textcolor{red}{Find a better way to present this graph, shifting vertically different rations and labeling the peaks.}
+\textcolor{red}{Explain why Si/Al has stronger peaks.}
 
 \subsection{Fourier Transform Infrared Spectroscopy}
 
@@ -167,12 +176,12 @@ This means that the gel structure progressively replaces AlO\textsubscript{4}\te
         Wavenumber Range (cm$^{-1}$) & Observed Peaks & Vibration Mode & Chemical Significance & Reference \\
         \hline
         % 3641 & 3641 (Ca(OH)$_2$ precursor) & O-H stretching & Sharp band characteristic of crystalline portlandite (Ca(OH)$_2$). & \\
-        3100-3450 & 3111, 3136, 3177, 3325, 3367 & O-H stretching & Represents weakly bonded or physically adsorbed water, and hydroxyl groups involved in hydrogen bonding within the gel structure. & \cite{Zhao2023}, \cite{provis2009geopolymers}, \cite{ma2022calcium}\\
+        3100-3450 & 3111, 3136, 3177, 3325, 3367 & O-H stretching & Represents weakly bonded or physically adsorbed water, and hydroxyl groups involved in hydrogen bonding within the gel structure. & \cite{Zhao2023}, \cite{provis2009geopolymers, ma2022calcium}\\
         1620-1645 & 1629, 1631, 1632, 1641 & H-O-H bending & Vibration of interlayered or physically bound water molecules in the AAM matrix. & \cite{Zhao2023}, \cite{pachecotorgal2014handbook}\\
-        1350-1500 & 1419, 1423, 1461, 1484 & C-O stretching & Characteristic of carbonates, indicating atmospheric carbonation (formation of CaCO$_3$ or K$_2$CO$_3$). & \cite{Zhao2023}, \cite{pachecotorgal2014handbook}, \cite{moraes2024scsa}\\
-        950-1100 & 960, 1008, 1023 & Si-O-T asymmetric stretching & Primary diagnostic band of N-A-S-H gel formation. Shifted to lower frequencies when compared to precursors (SA: 1040, MK: 1051 cm$^{-1}$) indicates precursor dissolution and gel polymerization. & \cite{ma2022calcium}, \cite{Zhao2023}, \cite{provis2009geopolymers}\\
-        780-880 & 787, 855, 872 & Si-O-Si symmetric stretching or C-O bending & Peaks around 780-800 cm$^{-1}$ relate to unreacted quartz. Bands in 850-880 cm$^{-1}$ are associated with carbonate bending vibrations. & \cite{moraes2024scsa}, \cite{pachecotorgal2014handbook}\\
-        550-700 & 563, 679, 703, 712 & O-T-O or Al-O-T bending & Associated with bending vibrations in the tetrahedral network, specifically Al-O linkages in AlO$_4$ units or O-Si-O bending. & \cite{Zhao2023}, \cite{ma2022calcium} \\
+        1350-1500 & 1419, 1423, 1461, 1484 & C-O stretching & Characteristic of carbonates, indicating atmospheric carbonation (formation of CaCO$_3$ or K$_2$CO$_3$). & \cite{Zhao2023, pachecotorgal2014handbook, moraes2024scsa}\\
+        950-1100 & 960, 1008, 1023 & Si-O-T asymmetric stretching & Primary diagnostic band of N-A-S-H gel formation. Shifted to lower frequencies when compared to precursors (SF: 1040, MK: 1051 cm$^{-1}$) indicates precursor dissolution and gel polymerization. & \cite{ma2022calcium, Zhao2023, provis2009geopolymers}\\
+        780-880 & 787, 855, 872 & Si-O-Si symmetric stretching or C-O bending & Peaks around 780-800 cm$^{-1}$ relate to unreacted quartz. Bands in 850-880 cm$^{-1}$ are associated with carbonate bending vibrations. & \cite{moraes2024scsa, pachecotorgal2014handbook}\\
+        550-700 & 563, 679, 703, 712 & O-T-O or Al-O-T bending & Associated with bending vibrations in the tetrahedral network, specifically Al-O linkages in AlO$_4$ units or O-Si-O bending. & \cite{Zhao2023, ma2022calcium} \\
         \hline
     \end{tabular}
     }
