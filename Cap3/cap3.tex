@@ -157,12 +157,51 @@ These samples were stored in hermetically sealed containers to prevent rehydrati
 \subsubsection{Characterization of Geopolymeric pastes}
 \label{sec:characterization_geopolymeric_pastes}
 
-The microstructural characterization of the hardened pastes was performed by X-ray diffraction (XRD), Fourier-transform infrared spectroscopy (FTIR), mercury intrusion porosimetry (MIP) and scanning electron microscopy (SEM) with energy-dispersive X-ray spectroscopy (EDS). 
-Moreover, XRD was performed under the same conditions applied for the raw materials.
+The microstructural characterization of the hardened pastes was performed by X-ray diffraction (XRD), Fourier-transform infrared spectroscopy (FTIR), mercury intrusion porosimetry (MIP), Helium-pycnometer density and scanning electron microscopy (SEM) with energy-dispersive X-ray spectroscopy (EDS). 
+
 Moreover, XRD and FTIR were performed under the same conditions applied for the raw materials.
+However, since both techniques require fine powders, small samples were grinded, then, the polymerization was interrupted by immersion in ethyl alcohol - as it is a dehydrating agent that does not react with the components of the geopolymeric paste- and vacuum filtration, followed by drying in an oven at 50$\degree$C for 24 hours.
 
-For XRD analysis, small samples were grinded, then, the polymerization was interrupted by immersion in ethyl alcohol - as it is a dehydrating agent that does not react with the components of the geopolymeric paste- and vacuum filtration, followed by drying in an oven at 50$\degree$C for 24 hours.
+\subsubsection{Mercury Intrusion Porosimetry}
 
+This technique is based on the principle that the mercury intrusion under controlled pressure is a function of the pore diameters, according to Laplace’s equation:
+\begin{equation}
+    d \;=\; -\,\frac{4\,\gamma \cos\theta}{P},
+\end{equation}
+where $\gamma$ is the interfacial tension between mercury and air ($0.48\ \mathrm{N\,m^{-1}}$), $P$ is the applied pressure (2–5000~psi), $\theta$ is the contact angle ($130^\circ$), and $d$ is the pore diameter.
+
+The total porosity was determined from:
+\begin{equation}
+    P \;=\; \frac{V_{\mathrm{MP}}}{\,V_{\mathrm{MP}} + \dfrac{M_a}{\rho}\,}, 
+\end{equation}
+where $P$ is the total porosity, $V_{\mathrm{MP}}$ is the volume of mercury intruded, $M_a$ is the sample mass, and $\rho$ is the sample density.
+
+The test was performed on an AMINCO (American Instrument Company) Model 5-7118 instrument.
+
+\subsubsection{Helium Pycnometer Density}
+
+The true density was determined by gas pycnometry.
+A gas pycnometer measures the true volume of a solid-even if porous-by monitoring the gas pressure variation in a chamber of known volume.
+Helium is commonly used because it is inert and readily penetrates accessible pores, allowing for a more accurate determination of the solid volume.
+
+The helium pycnometer consists of two chambers of known volumes (previously calibrated): the sample chamber and the expansion chamber, connected by an expansion valve.
+Before the analysis, the sample placed in the sample chamber undergoes degassing by repeated helium purges to remove impurities and moisture.
+After bringing the system to atmospheric pressure, the expansion chamber is isolated (closing the expansion valve), and the sample chamber is pressurized to $P_1$ (about 17~psi).
+Then the expansion valve is opened, leading to a pressure drop to $P_2$.
+Assuming ideal behavior of helium, the solid volume can be obtained from:
+\begin{equation}
+P_1\,(V_a - x) \;=\; P_2\,(V_a - x + V_e),
+\end{equation}
+or equivalently,
+\begin{equation}
+V_s \;=\; V_a \;-\; \frac{V_e}{\dfrac{P_1}{P_2} - 1},
+\end{equation}
+where $V_a$ is the sample-chamber volume, $V_e$ is the expansion-chamber volume, $x$ is the solid volume, and $V_s$ denotes the same solid volume as the final expression.
+
+The bulk density is automatically calculated by the instrument from the ratio between the solid mass (previously obtained on a balance and provided as input) and the volume derived from the equation above.
+
+The main advantage of this method is its ability to measure only the volume of the solid substance, discounting all open (gas-accessible) pores.
+In principle, it can also measure solids at any moisture content. A limitation is the maximum specimen size, constrained by the sample holder capacity (up to $10\ \mathrm{cm^3}$).
 
 \subsubsection{Physical properties of mortars}
 \label{sec:physical_properties_mortars}
@@ -175,13 +214,7 @@ Additionally, for the compressive strength test, the specimens were placed in a 
     \label{eq:compressive_strength}
     R_c = \frac{F_c}{A_t}
 \end{equation}
-
-Where:
-\begin{itemize}
-    \item $R_c$ is the compressive strength, in MPa;
-    \item $F_c$ is the maximum applied load, in N;
-    \item $A_t$ is the cross-sectional area, in mm\textsuperscript{2}.
-\end{itemize}
+where $R_c$ is the compressive strength (in MPa), $F_c$ is the maximum applied load (in N), and $A_t$ is the cross-sectional area (in mm\textsuperscript{2}).
 
 For statistical analysis, the Tukey test was performed, allowing the identification of significant differences between sample groups, considering a significance level of 95\%.
 The Table \ref{tab:tests_summary} summary presents the summary of the methods used in this work.
@@ -200,8 +233,8 @@ The Table \ref{tab:tests_summary} summary presents the summary of the methods us
         XRD & Yes & 0.9 - 5.0 & 3 & Identification of crystalline and amorphous phases \\
         FTIR & Yes & 0.9 - 5.0 & 1, 3 & Identification of chemical bonds in order to monitor the geopolymerization \\
         SEM/EDS & No & 0.9, 3.0, 5.0 & 3 & Observation of morphology and elemental distribution \\
-        MIP & No & 0.9, 3.0, 5.0 & 3 & Determination of pore size distribution and total porosity \\
-        Porosity & No & 0.9 - 5.0 & 3 & Measurement water absorption and bulk density \\
+        MIP/He pycnometry& No & 0.9, 3.0, 5.0 & 3 & Determination of pore size distribution and total porosity \\
+        C642 & No & 0.9 - 5.0 & 3 & Measurement water absorption and bulk density \\
         Compressive strength & No & 0.9 - 5.0 & 1, 3 & Evaluation of mechanical performance \\
         \hline
     \end{tabular}
