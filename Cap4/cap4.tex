@@ -181,11 +181,71 @@ This means that the gel structure progressively replaces AlO\textsubscript{4}\te
 \end{landscape}
 
 \subsection{Porosity}
-MIP and helium
+
+The results of density determined by He gas pycnometry are presented in Table \ref{tab:he_pycnometry}.
+\textcolor{red}{What is this standard deviation?}
+\textcolor{red}{Explain why the density is 3.0 > 0.9 > 5.0}
+
+\begin{table}[H]
+  \centering
+  \caption{Density results of the samples by He-pycnometry \label{tab:he_pycnometry}.}
+  \begin{tabular}{lccc}
+    \hline
+    Sample & Density (g/cm$^3$) & Average Density (g/cm$^3$) & Standard Deviation \\ 
+    \hline
+    \multirow{5}{*}{0.9-3d-60$\degree$C} 
+    & 2.1663 & \multirow{5}{*}{2.17} & \multirow{5}{*}{0.57} \\
+    & 2.1715 &  &  \\
+    & 2.1686 &  &  \\
+    & 2.1716 &  &  \\
+    & 2.1712 &  &  \\ 
+    \hline
+    \multirow{5}{*}{3.0-3d-60$\degree$C} 
+    & 2.1846 & \multirow{5}{*}{2.18} & \multirow{5}{*}{0.57} \\
+    & 2.1866 &  &  \\
+    & 2.1806 &  &  \\
+    & 2.1820 &  &  \\
+    & 2.1843 &  &  \\ 
+    \hline
+    \multirow{5}{*}{5.0-3d-60$\degree$C} 
+    & 2.1547 & \multirow{5}{*}{2.14} & \multirow{5}{*}{0.54} \\
+    & 2.1350 &  &  \\
+    & 2.1388 &  &  \\
+    & 2.1345 &  &  \\
+    & 2.1342 &  &  \\ 
+    \hline
+  \end{tabular}
+\end{table}
+
+
+The Table \ref{tab:mip} presents the results obtained from mercury intrusion porosimetry tests on the analyzed samples.
+Figure 1 shows the mercury intrusion curves as a function of pore diameter for the samples.
+\textcolor{red}{Explain that eventhough 5.0 has the smallest average diameter, 3.0 is the one with the most refined porosity, because it has more pores below 0.16 um. Does literature says anything about low Al/Si having coarser porosity?}
+
+\begin{table}[H]
+  \centering
+  \caption{Results obtained from mercury intrusion porosimetry tests. \label{tab:mip}}
+  \begin{tabular}{l p{1.5cm} c p{2.25cm} p{2cm}}
+    \hline
+    Sample & Porosity (\%) & 80\% of pores ($\mu$m) & Average diameter ($\mu$m) & Penetration (cm$^3$/g) \\ 
+    \hline
+    0.9-3d-60$\degree$C & 42.51 & Between 0.7 and 0.25 & 0.625 & 0.34 \\
+    3.0-3d-60$\degree$C & 42.82 & Between 0.16 and 0.0051 & 0.12 & 0.34 \\
+    5.0-3d-60$\degree$C & 46.71 & Between 1.75 and 0.065 & 0.097 & 0.40 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{Cap4/images/mip_inverted.png}
+  \caption{Mercury intrusion curves as a function of pore diameter for the samples.}
+  \label{fig:mip}
+\end{figure}
 
 \subsection{Scanning Electron Microscopy and Energy Dispersive Spectroscopy}
 
-Scanning electron microscopy of the pastes cured for 3 days revealed a clear dependence of matrix morphology on the Si/Al molar ratio
+Scanning electron microscopy of the pastes cured for 3 days revealed a clear dependence of matrix morphology on the Si/Al molar ratio.
 At Si/Al ratio of 0.9, the SEM images of the paste showed a higher frequency of visibly unreacted precursor particles, together with needle-shaped crystalline features and larger pores. Those unreacted particles are likely some alkali carbonate products that precipitate when mobile alkalis are not fully incorporated into the aluminosilicate gel and subsequently react with atmospheric CO\textsubscript{2} \cite{provis2018alkali}.
 
 \begin{figure}[H]
@@ -291,9 +351,9 @@ It can be speculated that this is due to a stronger tendency of Si to stays in s
     \centering
     \caption{EDS spectrum of pastes after 3 days of curing at 60$\degree$C.}
     \label{tab:eds_spectrum}
-    \begin{tabular}{l c c c c c c c c}
+    \begin{tabular}{c c c c c c c c c}
         \hline
-        \multicolumn{1}{c}{Sample} & \multicolumn{4}{c}{At(\%)} & \multicolumn{4}{c}{Wt(\%)} \\
+        \multirow{2}{*}{Sample} & \multicolumn{4}{c}{At(\%)} & \multicolumn{4}{c}{Wt(\%)} \\
         \cline{2-9}
         & Si & Al & K & Ca & Si & Al & K & Ca \\
         \hline
