@@ -68,6 +68,14 @@
 \usepackage{lettrine}
 \usepackage{float}
 \usepackage{placeins}
+\usepackage{etoolbox}
+% Insert \FloatBarrier before every \section
+\pretocmd{\section}{\FloatBarrier}{}{}
+% Insert \FloatBarrier before every \subsection
+\pretocmd{\subsection}{\FloatBarrier}{}{}
+% Insert \FloatBarrier before every \subsubsection
+\pretocmd{\subsubsection}{\FloatBarrier}{}{}
+
 % \usepackage{natbib} % for references within the sentence
 % \usepackage[backend=biber,style=authoryear]{biblatex}
 % \addbibresource{References/references.bib} % troque pelo nome do seu arquivo .bib
