@@ -54,8 +54,8 @@
 %--------------------------------------------------------
 \gdef\itatitletexttgbabel{\nh{Work presented to the Instituto Tecnol\'{o}gico de Aeron\'{a}utica, in partial fulfillment of the requirements for the conclusion of the course in \itaworkcourse.}\vspace{12pt}.}
 	  
-\gdef\itathesisapprovedmemberstgbabel{This publication was accepted like Final Work of Undergraduation Study}
-																			% outra possibilidade: Final Work approved in its final version by signatories below:
+\gdef\itathesisapprovedmemberstgbabel{Final Work approved in its final version by signatories below:}
+																			% outra possibilidade: This publication was accepted like Final Work of Undergraduation Study
 \gdef\itacountrytgbabel{Brazil}
 
 %--------------------------------------------------------

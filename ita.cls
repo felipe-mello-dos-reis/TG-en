@@ -438,7 +438,7 @@
    \vspace*{\stretch{2}}
 
    \begin{spacing}{1.0}
-   \textsc{\Large{S}\large{\~{a}o} \Large{J}\large{os\'{e}} dos \Large{C}\large{ampos}} \\ \textsc{\Large{i}\large{nstituto}{} \Large{t}\large{ecnol\'{o}gico}{} de \Large{a}\large{eron\'{a}utica}{}}
+   \textsc{\Large{S}\large{\~{a}o} \Large{J}\large{os\'{e}} dos \Large{C}\large{ampos}} \\ \textsc{\Large{A}\large{eronautics}{} \Large{I}\large{nstitute}{} of \Large{T}\large{echnology}{}}
 
 	 \vspace*{\stretch{2}}
 
