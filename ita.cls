@@ -690,10 +690,11 @@
 				 \vspace*{\stretch{1}}
 				 }
 
-			 	 \hspace{3cm}\hrulefill\hspace{3cm}
-				 \par
-				 \small{\@bosscourse}
-				 \vspace*{\stretch{2}}
+			 	%  \hspace{3cm}\hrulefill\hspace{3cm}
+				%  \par
+				%  \small{\@bosscourse}
+				%  \vspace*{\stretch{2}}
+        \vspace*{\stretch{3}}
 
 				 \if@eng
 						\small{S{\~a}o Jos{\'e} dos Campos: \@publmonth\ \@publday, \@publyear.}
