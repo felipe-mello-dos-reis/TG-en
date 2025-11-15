@@ -49,7 +49,7 @@
 %   \documentclass[dsc, eng]{ita}
 %		\documentclass[dsc, eng, dv]{ita}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\documentclass[tg, eng, dv]{ita}    % ITA.cls based on standard book.cls
+\documentclass[tg, eng]{ita}    % ITA.cls based on standard book.cls
 % Quando alterar a classe, por exemplo de [msc] para [msc, eng]) rode mais uma vez o botão BUILD OUTPUT caso haja erro
 \usepackage{ae}
 \usepackage{graphicx}
@@ -121,9 +121,9 @@
 \advisor{Prof.~Dr.}{João Cláudio Bassan de Moraes}{ITA}
 
 % Coorientador (Caso não haja coorientador, colocar ambas as variáveis \coadvisorgender e \coadvisor comentadas, com um % na frente)
-\coadvisorgender{fem}									% masc ou fem
+% \coadvisorgender{fem}									% masc ou fem
 % \coadvisor{Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$.}{Doralice Serra}{OVNI}
-\coadvisor{}{Pamela Rodrigues Passos Severino}{ITA}
+% \coadvisor{}{Pamela Rodrigues Passos Severino}{ITA}
 
 % Pró-reitor da Pós-graduação
 \bossgender{masc}												% masc ou fem
@@ -141,16 +141,14 @@
 % membros da banca examinadora
 
 % \examiner{Prof. Dr.}{Alan Turing}{Presidente}{ITA}
-\examiner{Prof. Dr.}{Richard Stallman}{}{UYYY}
 \examiner{Prof. Dr.}{João Cláudio Bassan de Moraes}{}{ITA}
 \examiner{Prof. Dr.}{María Victoria Borrachero Rosado}{}{UPV}
-\examiner{}{Pamela Rodrigues Passos Severino}{}{ITA}
 
 % Data da defesa (mês em maiúsculo, se trabalho em inglês, e minúsculo se trabalho em português)
-\date{13}{November}{2025}
+\date{12}{November}{2025}
 
 % Número CDU - (somente para TG)
-\cdu{???.??}
+\cdu{624:666.94}
 
 % Glossario
 \makeglossary
@@ -183,8 +181,8 @@
 
 % Apendices
 \appendix
-\chapter{Mix Design Formulations} 
-\input{AppendixA/appendixA}
+% \chapter{Mix Design Formulations} 
+% \input{AppendixA/appendixA}
 
 % \chapter{SEM Images} %optional
 % \input{AppendixB/appendixB}
@@ -203,17 +201,17 @@
 
 % Folha de Registro do Documento
 % Valores dos campos do formulario
-\FRDitadata{13 de novembro de 2025}
-\FRDitadocnro{DCTA/ITA/DM-018/2025} %(o número de registro você solicita a biblioteca)
-\FRDitaorgaointerno{Aeronautics Institute of Technology -- ITA}
+\FRDitadata{12 de novembro de 2025}
+\FRDitadocnro{DCTA/ITA/TC-044/2025} %(o número de registro você solicita a biblioteca)
+\FRDitaorgaointerno{Instituto Tecnológico de Aeronáutica -- ITA}
 %Exemplo no caso de pós-graduação: Instituto Tecnol{\'o}gico de Aeron{\'a}utica -- ITA
-\FRDitapalavrasautor{AAM; Geopolymer; One-part}
-\FRDitapalavrasresult{AAM; Geopolymer; One-part}
+\FRDitapalavrasautor{AAM; Geopolymer; One-part.}
+\FRDitapalavrasresult{Cimentos; Ligantes; Desenvlvimento sustentável; Concretos; Soluções alcalinas; Propriedades mecânica; Construção civil; Engenharia civil.}
 %Exemplo no caso de graduação (TG):
 %\FRDitapalavraapresentacao{Trabalho de Graduação, ITA, São José dos Campos, 2015. \NumPenultimaPagina\ páginas.}
 %Exemplo no caso de pós-graduação (msc, dsc):
-\FRDitapalavraapresentacao{ITA, São José dos Campos. Undergraduate Course. Undergraduate Program in Civil-Aeronautical Engineering. Department of Structures and Buildings. Advisor: Prof.~Dr. João Cláudio Bassan de Moraes. Co-advisor: Pamela Rodrigues Passos Severino. Defense on 05/26/2025. Published on 05/26/2025.}
-\FRDitaresumo{\input{PreTextuais/resumo}}
+\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Graduação em Engenharia Civil-Aeronáutica. Orientador: Prof. Dr. João Cláudio Bassan de Moraes. Publicado em 2025.}
+\FRDitaresumo{\input{PreTextuais/abstract}}
 %  Primeiro Parametro: Nacional ou Internacional -- N/I
 %  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
 \FRDitaOpcoes{N}{O}
